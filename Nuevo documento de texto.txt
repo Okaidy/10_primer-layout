@@ -1,0 +1,8 @@
+.logo
+display:block
+margin: auto
+
+para centar imagenes
+
+
+siempre 12 colmnas y container, row y col
