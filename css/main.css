@@ -17,25 +17,16 @@ div.linea>p{
 	position: relative;
 	margin:5px;
 }
-h3{
-	text-align: left;
-	margin-left: 125px;
-}
 /*Menu*/
 /*linea superior e inferior del menu*/
 ul {
     list-style-type: none;
-    margin: 0 px;
-    padding: 0;
     overflow: hidden;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-	width: 75%;
+	  width: 75%;
 }
-/*margene de la barra de menu*/
-.menu{
-	margin:0px 130px;
-}
+
 /*Coloca los elementos de la lista a la izquierda*/
 /*estilo para los elementos de la lista*/
 .elemento{
@@ -61,10 +52,9 @@ hr{
 	height:3px;
 	width: 70px;
 	background-color:black;
-	margin-left: 125px;
 }
 /*Estilo de la linea separadora en el parrrafo*/
-div.container>hr{
+.lineagris{
 	background-color: grey;
 	border:1px solid grey;
 	margin-left: 45%;
@@ -73,7 +63,6 @@ div.container>hr{
 /*ajusta la imagen grupal y la separa de los demas objetos*/
 .grupo{
 	width: 75%;
-	margin-left: 33px;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
@@ -89,6 +78,7 @@ div.container>hr{
 	margin:30px 0px;
 	width: 100%;
 }
+
 /*cambia el  tamaño de las imagenes en coder detail*/
 .cuadro{
 	height: 150px;
@@ -116,3 +106,10 @@ div.container>hr{
 	margin-left: 7%;
 	padding: 20px 0px;
 }
+.pad {
+  padding-left:125px;
+}
+.auto {
+  margin:auto;
+}
+ 
